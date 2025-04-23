@@ -3,6 +3,12 @@ background-color:grey;
 }
 
 body {
-  
   margin: 0 auto;
+}
+p{
+  font-family: arial;
+}
+
+li{
+  diplay:center;
 }
