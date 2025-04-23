@@ -1,9 +1,7 @@
-background{
-background-color:grey;
-}
 
 body {
   margin: 0 auto;
+  background-color:grey;
 }
 p{
   font-family: arial;
