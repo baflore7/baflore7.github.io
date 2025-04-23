@@ -2,7 +2,7 @@ background{
 background-color:grey;
 }
 
-p body{
-  diplay:center;
-}
+body {
   
+  margin: 0 auto;
+}
