@@ -1,6 +1,8 @@
 body {
   background-color: grey;
   text-align:center;
+   border: 2px solid red;
+  border-radius: 5px;
 }
 
 h1 {
