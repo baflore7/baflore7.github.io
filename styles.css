@@ -1,7 +1,7 @@
 body {
   background-color: grey;
   text-align:center;
-   border: 2px solid red;
+   border: 2px rounded red;
   border-radius: 5px;
 }
 
