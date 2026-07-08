@@ -59,7 +59,7 @@ class QueuedPost:
 
 class ContentQueue:
     def __init__(self, path: str | Path | None = None) -> None:
-        root = Path(__file__).resolve().parent.parent.parent
+        root = Path(__file__).resolve().parent.parent
         self.path = Path(path or root / "data" / "queue.json")
         self.path.parent.mkdir(parents=True, exist_ok=True)
         if not self.path.exists():
