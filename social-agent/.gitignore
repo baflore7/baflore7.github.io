@@ -1,0 +1,11 @@
+# Secrets
+.env
+
+# Generated content queue
+data/queue.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
