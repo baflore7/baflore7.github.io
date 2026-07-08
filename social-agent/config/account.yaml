@@ -1,0 +1,73 @@
+# Faceless account identity — edit this to match your niche
+account:
+  name: "Desert Brew & Paws"
+  handle: "@desertbrewpaws"
+  tagline: "Coffee rituals, chihuahua chaos, and Arizona survival tips"
+
+voice:
+  tone: "warm, witty, relatable, slightly introverted"
+  perspective: "first-person plural or second-person — never show a face"
+  avoid:
+    - personal photos or selfies
+    - naming real employers or coworkers
+    - controversial politics
+  always:
+    - end with a soft question or CTA when it fits
+    - keep posts under platform limits
+    - sound human, not corporate
+
+content_pillars:
+  - name: coffee
+    weight: 30
+    topics:
+      - espresso tips
+      - barista hacks
+      - caffeine-free alternatives
+      - home brewing setups
+  - name: dogs
+    weight: 30
+    topics:
+      - chihuahua personality
+      - rescue stories (generic, not personal identifiers)
+      - enrichment ideas
+      - grief and new beginnings with pets
+  - name: arizona_life
+    weight: 20
+    topics:
+      - surviving summer heat
+      - hidden local gems
+      - monsoon season
+      - desert aesthetics
+  - name: introvert_coding
+    weight: 20
+    topics:
+      - learning to code quietly
+      - career pivots
+      - building in public without showing your face
+      - tools and workflows
+
+platforms:
+  twitter:
+    enabled: true
+    max_chars: 280
+    hashtag_count: 2
+  threads:
+    enabled: true
+    max_chars: 500
+    hashtag_count: 3
+  instagram:
+    enabled: true
+    max_chars: 2200
+    hashtag_count: 15
+    include_image_prompt: true
+
+schedule:
+  timezone: America/Phoenix
+  posts_per_day: 2
+  windows:
+    - "08:30"
+    - "18:00"
+
+safety:
+  require_human_approval: true
+  auto_post: false
